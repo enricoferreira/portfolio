@@ -1,0 +1,45 @@
+/* setup */
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    overflow: auto;
+    outline: 1px dashed lightgray;
+    flex: none;
+    overflow-x: hidden;
+  }
+  
+  .container.y {
+      height: 100vh;
+      width: 100vw;
+      flex-flow: column nowrap;
+  }
+  /* scroll-snap */
+  .y.mandatory-scroll-snapping {
+    scroll-snap-type: y mandatory;
+  }
+  
+  .container > div {
+    text-align: center;
+    scroll-snap-align: start;
+    flex: none;
+  }
+  
+  .y.container > div {  
+    font-size: 64px;
+    width: 100vw;
+    height: 100vh;  
+  }
+  
+  /* coloration */
+  .container > div:nth-child(even) {
+    background-color: #87EA87;
+  }
+  
+  .container > div:nth-child(odd) {
+    background-color: #87CCEA;
+  }
