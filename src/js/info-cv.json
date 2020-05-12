@@ -1,0 +1,65 @@
+{
+    "nome": "Enrico Augusto da Rocha Ferreira",
+    "dt_nascimento": "13-05-1994",
+    "localidade":{
+        "endereco":{
+            "rua": "Avenida Professor José Munhoz",
+            "numero": 399,
+            "estado": "São Paulo",
+            "cidade": "Guarulhos",
+            "cep": "07033000" 
+        }                            
+    },
+    "estado_civil": "Solteiro",
+    "escolaridade": {
+        "graduacao": "Tecnólogo",
+        "instituicao": "FATEC - IPIRANGA",
+        "conclusao": "12-2018"
+    },
+    "experiencias": [{
+        "SABESP": {
+            "cargo": "Estagiário TI",
+            "atribuições": ""
+        }
+    }, {
+        "Prefeitura_Municipal_Saúde": {
+            "cargo": "Estagiário TI",
+            "atribuições": ""
+        }
+    }, {
+        "TFLEET": {
+            "cargo": "Estagiário Business Intelligence",
+            "atribuições": ""
+        }
+    }, {
+        "Multiportal Software & Hardware": {
+            "cargo": "Desenvolvedor Front End",
+            "atribuições": "",
+            "tecnologias": [],
+            "projetos": {
+                "dashboards": {
+                    "descricao": "Desenvolver dashboards dinâmicos como uma nova funcionalidade do sistema da empresa"
+                },
+                "refatorar_layout": {
+                    "descricao": "Refatoração do sistema da empresa em um layout mais atraente e com novas funcionalidades, utilizando o framework Semantic UI"
+                },
+                "sistema_dispositivos": {
+                    "descricao": "Software que mostra ao cliente diversas as iscas cadastradas co sucesso no sistema de rastreamento"
+                }
+            }
+        }
+    }],
+    "idiomas": {
+        "portugues": {
+            "leitura": "Nativo",
+            "escrita": "Nativo",
+            "conversacao": "Nativo"
+        },
+        "ingles":{
+            "leitura": "Avançado",
+            "escrita": "Avançado",
+            "conversacao": "Avançado"
+        }
+    },
+    "objetivos": "Conhecer e me aprofundar no desenvolvimento web tanto no Front End, quanto no Back End, trabalhando, aprendendo e se possível ensinando as melhores tecnologias do mercado."
+}   
