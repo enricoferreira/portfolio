@@ -10,6 +10,7 @@
             "cep": "07033000" 
         }                            
     },
+    "email": "enricoferreira41@gmail.com",
     "estado_civil": "Solteiro",
     "escolaridade": {
         "graduacao": "Tecnólogo",
@@ -61,5 +62,13 @@
             "conversacao": "Avançado"
         }
     },
-    "objetivos": "Conhecer e me aprofundar no desenvolvimento web tanto no Front End, quanto no Back End, trabalhando, aprendendo e se possível ensinando as melhores tecnologias do mercado."
+    "objetivos": "Conhecer e me aprofundar no desenvolvimento web tanto no Front End, quanto no Back End, trabalhando, aprendendo e se possível ensinando as melhores tecnologias do mercado.",
+    "midia_social": {
+        "linkedin":{
+            "url": "https://www.linkedin.com/in/enrico-augusto-da-rocha-ferreira-b475a969/"
+        },
+        "github":{
+            "url": "https://github.com/enricoferreira"
+        }
+    }
 }   
