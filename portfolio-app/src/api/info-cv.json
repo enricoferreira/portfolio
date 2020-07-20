@@ -70,5 +70,25 @@
         "github":{
             "url": "https://github.com/enricoferreira"
         }
-    }
+    },
+    "cursos_extracurriculares":[
+        {
+            "instituicao": "Origamid",
+            "link_instituicao": "www.origamid.com.br",
+            "titulo_curso": "Javascript Completo - ES6",
+            "link_comprovante": "link"
+        },
+        {
+            "instituicao": "Origamid",
+            "link_instituicao": "www.origamid.com.br",
+            "titulo_curso": "Desenvolvimento Web Completo",
+            "link_comprovante": "link"
+        },
+        {
+            "instituicao": "Origamid",
+            "link_instituicao": "www.origamid.com.br",
+            "titulo_curso": "Vue completo",
+            "link_comprovante": "link"
+        }
+]
 }   
