@@ -1,8 +1,7 @@
 <template>
-<div>
-  About
-
-</div>
+  <div>
+      graduated
+  </div>
 </template>
 
 <script>

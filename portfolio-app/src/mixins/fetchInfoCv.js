@@ -1,18 +1,5 @@
-<template>
-  <v-container>            
-    
-      {{baseUrl}}
-      {{curriculo}}
-    
-  </v-container>
-</template>
-
-<script>
-// import fetchInfoCv from '../mixins/fetchInfoCv.js';
-export default {
-  name: 'Home',
-  // mixins: [fetchInfoCv],
-  data() {
+export default{
+    data() {
         return {
             curriculo: null,
             err: false,
@@ -34,8 +21,5 @@ export default {
             })
         }
     },
-  created() {
-        this.fetchCurriculoJson();
-    },
+    
 }
-</script>
