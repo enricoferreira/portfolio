@@ -22,11 +22,11 @@ const router = new VueRouter({
       path: '/projects',
       name: 'projects',
       component: ()=>import('../views/Projects.vue')
-    },
+    },    
     {
-      path: '/experiences',
-      name: 'experiences',
-      component: ()=>import('../views/Experiences.vue')
+      path: '/timeline',
+      name: 'timeline',
+      component: ()=>import('../views/Timeline.vue')
     },
     {
       path: '/graduated',
@@ -34,9 +34,9 @@ const router = new VueRouter({
       component: ()=>import('../views/Graduated.vue')
     },
     {
-      path: '/courses',
-      name: 'courses',
-      component: ()=>import('../views/Courses.vue')
+      path: '/skills',
+      name: 'skills',
+      component: ()=>import('../views/Skills.vue')
     },
 
   ]

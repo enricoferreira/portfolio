@@ -1,7 +1,8 @@
 <template>
   <v-app>
+
+    <v-main class="white lighten-5">
     <side-bar></side-bar>
-    <v-main>
       <router-view></router-view>
     </v-main>
   </v-app>

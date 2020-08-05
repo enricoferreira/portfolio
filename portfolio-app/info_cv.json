@@ -1,0 +1,214 @@
+{
+  "curriculo":{
+    "nome": "Enrico Augusto da Rocha Ferreira",
+    "dt_nascimento": "13-05-1994",
+    "localidade":{
+        "endereco":{
+            "rua": "Avenida Professor José Munhoz",
+            "numero": 399,
+            "estado": "São Paulo",
+            "cidade": "Guarulhos",
+            "cep": "07033000" 
+        }                            
+    },
+    "email": "enricoferreira41@gmail.com",
+    "estado_civil": "Solteiro",
+    "escolaridade": {
+        "graduacao": "Tecnólogo",
+        "instituicao": "FATEC - IPIRANGA",
+        "conclusao": "12-2018"
+    },
+    "experiencias": {
+        "SABESP": {
+            "ano": "2013 - 2015",
+            "color": "red",
+            "cargo": "Estagiário TI",
+            "atribuicoes": "Suporte técnico de hardware e software, desenvolvimento de relatórios com vba e excel. Diagramação de banco de dados.",
+            "projetos": {}
+        },         
+        "Prefeitura Municipal Saúde": {
+            "ano": "2017",
+            "color": "blue",
+            "cargo": "Estagiário TI",
+            "atribuicoes": "Desenvolvimento de relatórios para auxiliar a equipe administrativa, assim como desenvolvimento de macros e sistema para controle de atividades internas.",
+            "projetos": {}
+        },
+        "TFLEET": {
+            "ano": "2018 - 2019",
+            "color": "green",
+            "cargo": "Estagiário Business Intelligence",
+            "atribuicoes": "Desenvolvimento de dashboards e relatórios utilizando Excel e Power Bi, utilização de SQL para extração de dados.",
+            "projetos": {}
+        },
+        "Multiportal Software & Hardware": {
+            "ano": "2019 - atualmente",
+            "color": "orange",
+            "cargo": "Desenvolvedor Front End",
+            "atribuicoes": "Desenvolver layouts responsivos, landing pages e implementações utilizando Html5, Js, Css, Semantic, Vue e Bootstrap.",
+            "tecnologias": ["Javascript", "Css", "Semantic UI", "Bootstrap", "Vuejs", "HTML5"],
+            "projetos": {
+                "dashboards": {
+                    "descricao": "Desenvolver dashboards dinâmicos como uma nova funcionalidade do sistema da empresa"
+                },
+                "refatoracao_layout": {
+                    "descricao": "Refatoração do sistema da empresa em um layout mais atraente e com novas funcionalidades, utilizando o framework Semantic UI"
+                },
+                "sistema_dispositivos": {
+                    "descricao": "Software que mostra ao cliente diversas as iscas cadastradas co sucesso no sistema de rastreamento"
+                }
+            }
+        }
+    },
+    "idiomas": {
+        "Português": {
+            "leitura": "Nativo",
+            "escrita": "Nativo",
+            "conversacao": "Nativo"
+        },
+        "Inglês":{
+            "leitura": "Avançado",
+            "escrita": "Avançado",
+            "conversacao": "Avançado"
+        }
+    },
+    "skills":{
+      "javascript": {
+        "nome": "Javascript",
+        "experiencia": "01/01/2018",
+        "estrelas": 4.5,
+        "icon": "mdi-language-javascript",
+        "color": "ambar",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        "describe": "Conhecimento de boas práticas e das features do ES6, como módulos, classes, destructuring, arrow functions entre outras"
+      },
+      "css": {
+        "nome": "Css3",
+        "experiencia": "01/01/2018",
+        "estrelas": 4.5,
+        "icon": "mdi-language-css3",
+        "color": "blue",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+        "describe": "Bons conhecimentos em display flex, grid e posicionamento"
+      },
+      "HTML5": {
+        "nome": "Html 5",
+        "experiencia": "01/01/2018",
+        "estrelas": 5.0,
+        "icon": "mdi-language-html5",
+        "color": "orange",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/64px-HTML5_logo_and_wordmark.svg.png",
+        "describe": "Bom desenvolvimento da estrutura de marcação e conhecimento básico de SEO."
+      },
+      "Vue": {
+        "nome": "Vue.js",
+        "experiencia": "01/01/2020",
+        "estrelas": 4.0,
+        "icon": "mdi-vuejs",
+        "color": "green",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
+        "describe": "Tecnologia que atuo com frequência, e possuo grandes familiaridade. Conhecimento em Vuex, VueRouter e Vuetify."
+      },
+      "Rest": {
+        "nome": "REST API",
+        "experiencia": "01/01/2019",
+        "estrelas": 4.0,
+        "icon": "mdi-api",
+        "color": "black",
+        "image": "",
+        "describe": "Conhecimento na parte de front e back end, tenho alguns projetos no github que utilizo tanto para consumo, quanto para criação de Api's"
+      },
+      "Bootstrap": {
+        "nome": "Bootstrap 4",        
+        "experiencia": "01/01/2018",
+        "estrelas": 4.5,
+        "icon": "mdi-bootstrap",
+        "color": "purple",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+        "describe": "Considero um dos melhores frameworks css para se trabalhar devido a facilidade na manipulação de classes, no entanto possui os mais belos designs."
+      },
+      "Semantic": {
+        "nome": "Semantic UI",
+        "experiencia": "01/01/2019",
+        "estrelas": 5,
+        "icon": "mdi-git",
+        "color": "black",
+        "image": "",
+        "describe": "Primeiro framework css que aprendi, utilizo em diversos projetos e tambem no atual trabalho."
+      },
+      "Node": {
+        "nome": "Node js",
+        "experiencia": "01/01/2020",
+        "estrelas": 4.0,
+        "icon": "mdi-nodejs",
+        "color": "green",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/NodeJS.png",
+        "describe": "Utilizo o nodejs para subir api's para web. Costumo utilizar junto ao express no modelo MVC."
+      },
+      "Mongo":{
+        "nome": "Mongo DB",
+        "experiencia": "01/12/2020",
+        "estrelas": 3.5,
+        "icon": "mdi-git",
+        "color": "green",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/MongoDB_Logo.png",
+        "describe": "Associado ao nodejs para manter os dados. Utilizo com frequência devido a facilidade de manipulação comparado ao SQL."
+      },
+      "SQL":{
+        "nome": "SQL",
+        "experiencia": "01/12/2020",
+        "estrelas": 3.0,
+        "icon": "mdi-database",
+        "color": "blue",
+        "image": "",
+        "describe": "Conhecimento adquirido na faculdade e no estágio que realizei na Tfleet. Considero de extrema importância para quem deseja ter um maior domínio de tecnologias no back end"
+      },
+      "git":{
+        "nome": "Git",
+        "experiencia": "01/01/2019",
+        "estrelas": 4.0,
+        "icon": "mdi-git",
+        "color": "orange",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/64px-Git-logo.svg.png",
+        "describe": "Básico para se manter um projeto e controlar suas versões."
+      },
+      "scrum": {
+        "nome": "Scrum - Metodologia",
+        "experiencia": "01/01/2019",
+        "estrelas": 4.0,
+        "icon": "mdi-git",
+        "color": "blue",
+        "image": "https://lh3.googleusercontent.com/v9q2ohGxp8FIgphBuyBj2wCiBQtvjMxn72vLNJdyvcvBXIg-aeM-jsXHouNizDX1to14=s85",
+        "describe": "Metodologia ágil de desenvolvimento, utilizo no dia a dia com a equipe com que trabalho atualmente, focado em sprints e reuniões diárias."
+      }
+    },
+    "objetivos": "Conhecer e me aprofundar no desenvolvimento web tanto no Front End, quanto no Back End, trabalhando, aprendendo e se possível ensinando as melhores tecnologias do mercado.",
+    "midia_social": {
+        "linkedin":{
+            "url": "https://www.linkedin.com/in/enrico-augusto-da-rocha-ferreira-b475a969/"
+        },
+        "github":{
+            "url": "https://github.com/enricoferreira"
+        }
+    },
+    "cursos_extracurriculares":[
+        {
+            "instituicao": "Origamid",
+            "link_instituicao": "www.origamid.com.br",
+            "titulo_curso": "Javascript Completo - ES6",
+            "link_comprovante": "link"
+        },
+        {
+            "instituicao": "Origamid",
+            "link_instituicao": "www.origamid.com.br",
+            "titulo_curso": "Desenvolvimento Web Completo",
+            "link_comprovante": "link"
+        },
+        {
+            "instituicao": "Origamid",
+            "link_instituicao": "www.origamid.com.br",
+            "titulo_curso": "Vue completo",
+            "link_comprovante": "link"
+        }
+]
+  }
+}

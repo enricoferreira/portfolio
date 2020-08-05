@@ -1,39 +1,41 @@
 <template>
-  <div>
-    <v-toolbar dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
-      <!-- <v-app-bar-nav-icon></v-app-bar-nav-icon> -->
-
-      <v-toolbar-title>Enrico</v-toolbar-title>
-
-      <v-spacer></v-spacer>      
-
-        <router-link to="">
-            <v-btn icon text-capitalize>
-                <v-icon>mdi-star</v-icon>
-            </v-btn>
-        </router-link>
-
-        <router-link :to="{name: 'projects'}">
-            <v-btn icon text-capitalize>
-                <v-icon>mdi-format-list-bulleted-type</v-icon>
-            </v-btn>
-        </router-link>
-
-      <v-btn icon>
-        <v-icon>mdi-export</v-icon>
-      </v-btn>
-    </v-toolbar>
-  </div>
+  
+    <v-app-bar color="white" elevate-on-scroll>
+      <v-btn text to="/">Enrico</v-btn>
+      <v-spacer></v-spacer>
+        <v-btn v-for="(pagina, index) in paginas" :key="index" class="" :to="{name: pagina}" text>
+          {{pagina}}
+        </v-btn>        
+    </v-app-bar>
+  
 </template>
 
 <script>
 export default {
-    name: 'SideBar'
+    name: 'SideBar',
+    data() {
+      return {
+        paginas: ['about', 'skills', 'projects', 'timeline']
+      }
+    },
 }
 </script>
 
 <style>
 a{
     text-decoration: none;
+}
+.theme--dark.v-btn--active::before {
+  opacity: 0;
+}
+
+.v-btn::before {
+  background: none;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 </style>
