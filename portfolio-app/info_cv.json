@@ -77,7 +77,7 @@
         "experiencia": "01/01/2018",
         "estrelas": 4.5,
         "icon": "mdi-language-javascript",
-        "color": "ambar",
+        "color": "yellow",
         "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
         "describe": "Conhecimento de boas práticas e das features do ES6, como módulos, classes, destructuring, arrow functions entre outras"
       },

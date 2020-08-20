@@ -2,7 +2,7 @@
 <div class="d-flex flex-wrap" v-if="curriculo_skill != null">
 
   <v-col v-for="(skill, index) in curriculo_skill" :key="index"  cols="6" md="6" sm="12" lg="4">
-    <v-card>     
+    <v-card :style="{borderTop: '2px solid ' + skill.color}">
       <v-card-title class="d-flex justify-space-between">
         {{skill.nome}}
         <v-icon v-if="skill.image == ''" large :color="skill.color">{{skill.icon}}</v-icon>
@@ -13,10 +13,10 @@
         <v-rating :value="skill.estrelas" color="amber" dense half-increments readonly size="20"></v-rating>
       </v-card-subtitle>
 
-      <v-card-text class="d-flex justify-space-between">
+      <v-card-text @click="skill.active = !skill.active" class="d-flex justify-space-between">
         {{skill.experiencia | moment('MM/YYYY')}}  
 		<v-spacer></v-spacer>
-        <v-btn icon @click="skill.active = !skill.active">
+        <v-btn icon>
           <v-icon>{{ skill.active ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
         </v-btn>
       </v-card-text>
